@@ -77,6 +77,8 @@ body {
 @media screen and (min-width:950px) {
    .nav {
       display: flex;
+      justify-content: center;
+      align-items: center;
    }
 }
 
@@ -525,6 +527,8 @@ border-radius: 1.5rem;
 @media screen and (max-width:1012px){
    .box-grid{
       grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      align-items: center;
    }
    
 }
@@ -542,6 +546,9 @@ border-radius: 1.5rem;
    width: 62rem;
    margin: 0.5rem;
 }
+@media screen and (max-width:1012px){
+   .subnews{height: 32rem;}
+}
 .npart{
    font-size: 13px; 
 }
@@ -551,6 +558,8 @@ border-radius: 1.5rem;
       background-color: #e2e5ed;
       padding: 1rem;
       width: 28rem;
+      height: 12rem;
+   
    }
    
 }
@@ -589,6 +598,8 @@ border-radius: 1.5rem;
    .nimg{
       border-radius: 10%;
       width: 28rem;
+      justify-content: center;
+      align-items: center;
    }
    
 }
@@ -622,3 +633,63 @@ flex-direction: column;
    background-color: var(--link-color);
 }
 /* for check this is working */
+
+.main_footer{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   background: var(--background-color);
+}
+.fsection{
+   max-width: 1020px;
+   display: flex;   
+   gap: 3rem;
+   justify-content: center;
+   align-items: center;
+}
+@media screen and(){
+   
+}
+.fdiv_left{
+   font-size: 12px;
+   text-align: left;
+}
+.fsocial_img{
+   width: 33%;
+   display: flex;
+   gap: 0.2rem;
+}
+.logo-text2{
+   font-size: 1rem;
+}
+.logo-item2{
+   height: 1.2rem;
+   width: 1.30rem;
+   border-radius: 15%;
+}
+.fgrid{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 1.5rem;
+}
+.f_ul{
+   font-size: 13px;
+   symbols: none;
+   
+      list-style-type: none;
+    
+}
+.ficon{
+   height: 1.5rem;
+   width: 1.5rem;
+}
+.fsection2{
+   margin: 0.4rem;
+   padding: 1rem;
+   text-align: center;
+   font-size: 10px;
+}
